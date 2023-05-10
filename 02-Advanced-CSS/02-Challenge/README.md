@@ -42,6 +42,20 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
+## Acceptance Criteria Simplified
+
+In this project you are tasked with creating a portfolio of your work. It should match the mockup given as close as possible (though some leeway is given for your own creativity).
+
+The following subtasks must be done:
+
+* You should have your name, recent photo, and a nav section in the header (which should be at the top of the page)
+* The nav section should have sections for About Me, Work, and Contact, and Resume
+* When any of these nav sections is clicked, the page should scroll to the appropriate section further down on the page (You can do this without JavaScript-google can help you, or the instructional staff during office hours).
+* Add an About Me section that has some info about yourself.
+* You should create a section with images of your applications. You might not have any to start off with. In that case just put placeholder links and update the portfolio as we build out more challenge homeworks (you can link to these!)
+* The sections should also have a description of your project
+* Add a contact section that has ways to get ahold of you (email, phone, github page, whatever you feel comfortable with). If you're not comfortable putting your real phone, put a fake one for the graders.
+* Your page should be responsive. What does this mean? It means when viewed on a mobile browser, it adjusts itself to conform to the smaller width. You can use the Chrome inspector to go into mobile view and set different widths to see how your page reacts. My recommendation here is to make sure you have the appropriate viewport meta tag (`<meta name="viewport" content="width=device-width, initial-scale=1" />`) then slowly shrink your page until something seems to break or look bad. Then use a media query to adjust, and continue.
 
 ## Mock-Up
 
@@ -103,4 +117,4 @@ You are required to submit BOTH of the following for review:
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
 - - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
