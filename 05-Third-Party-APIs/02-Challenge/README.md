@@ -4,7 +4,7 @@
 
 Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
 ## User Story
 
@@ -34,8 +34,20 @@ THEN the saved events persist
 
 The following animation demonstrates the application functionality:
 
-<!-- @TODO: create ticket to review/update image) -->
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+
+## Acceptance Criteria Simplified
+
+In this project you'll be creating a daily planner for keeping track of tasks. The HTML is given to you for this, you just have to create the JavaScript.
+
+You must complete the following tasks for this project:
+
+* Show the current day at the top of the calendar (day and date, see gif for format)
+* A series of timeblock elements must exist on the page (you can create these dynamically in JavaScript or place them manually on the page, either will work for now). These should match the spec you see below.
+* Each timeblock has an hour associated with it. Take the current time into account and compare it to the hour of the timeblock. Give each timeblock a specific color depending on if it has already happened, is happening now, or will happen in the future.
+* You should have a textbox inside each timeblock, to allow entering events.
+* There should be a button to the right of each timeblock. When this button is clicked, save the corresponding event to localstorage for that time slot.
+* When loading the page, fetch all the stored data for each timeslot from localstorage and put those values in the corresponding textboxes for the given timeblocks.
 
 ## Grading Requirements
 
@@ -49,7 +61,7 @@ The following animation demonstrates the application functionality:
 >
 > * A repository that only includes starter code
 
-This Challenge is graded based on the following criteria:
+This Challenge is graded based on the following criteria: 
 
 ### Technical Acceptance Criteria: 40%
 
@@ -96,4 +108,4 @@ You are required to submit the following for review:
 * The URL of the GitHub repository, with a unique name and a README describing the project
 
 - - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
